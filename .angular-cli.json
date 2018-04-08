@@ -18,8 +18,14 @@
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          ".",
+          "../node_modules"
+        ]
+      },
       "styles": [
-        "styles.css"
+        "styles.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
